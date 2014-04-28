@@ -8,7 +8,7 @@ setup(
     license='MIT',
     author='herr kaste',
     author_email='herr.kaste@gmail.com',
-    url='',
+    url='https://github.com/kaste/pytest-beds',
     platforms=['linux', 'osx', 'win32'],
     packages = ['testbeds'],
     entry_points = {'pytest11': ['testbeds = testbeds.plugin'],},
