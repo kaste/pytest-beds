@@ -51,7 +51,7 @@ List of builtin fixtures::
 
 
 Users
-=====
+-----
 
 There are two fixtures ``anonymous`` and ``login`` to handle the users-stub.
 
@@ -72,7 +72,7 @@ There are two fixtures ``anonymous`` and ``login`` to handle the users-stub.
 
 
 Deferreds
-=========
+---------
 
 The ``deferreds`` fixture inits the taskqueue stub, but returns a useful object, so you can actually run the deferred functions::
 
