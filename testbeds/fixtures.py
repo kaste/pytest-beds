@@ -77,6 +77,13 @@ def blobstore(bed):
 
 
 @fixture
+def search(bed):
+    bed.init_search_stub()
+    from google.appengine.api import search
+    return search
+
+
+@fixture
 def ndb_(bed, memcache, monkeypatch):
     from google.appengine.datastore import datastore_stub_util
     policy = datastore_stub_util.PseudoRandomHRConsistencyPolicy()
