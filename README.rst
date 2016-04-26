@@ -1,5 +1,7 @@
 Convenience plugin on top of the testbed the Google Appengine (GAE) SDK already provides.
 
+.. image:: https://travis-ci.org/kaste/pytest-beds.svg?branch=master
+    :target: https://travis-ci.org/kaste/pytest-beds
 
 Install
 =======
