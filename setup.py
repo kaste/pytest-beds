@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="pytest-beds",
-    version='0.0.1',
+    version='0.0.2',
     description='Fixtures for testing Google Appengine (GAE) apps',
     long_description=open('README.rst').read(),
     license='MIT',
