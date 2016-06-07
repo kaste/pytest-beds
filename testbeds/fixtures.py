@@ -84,6 +84,13 @@ def search(bed):
 
 
 @fixture
+def app_identity(bed):
+    bed.init_app_identity_stub()
+    from google.appengine.api import app_identity
+    return app_identity
+
+
+@fixture
 def ndb_(bed, memcache, monkeypatch):
     from google.appengine.datastore import datastore_stub_util
     policy = datastore_stub_util.PseudoRandomHRConsistencyPolicy()
